@@ -1,0 +1,13 @@
+body { background: #1f2430; color: #e8eaf0; }
+.card { background: #2c313d; border: 0; border-radius: .75rem; overflow: hidden; }
+.card-title { font-size: 1rem; font-weight: 700; }
+.estado { font-size: .8rem; }
+.punto { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: .35rem; }
+.punto.alive { background: #3ecf5a; }
+.punto.dead { background: #e5484d; }
+.punto.unknown { background: #8b8f99; }
+.etiqueta { font-size: .75rem; color: #9aa0ad; margin: 0; }
+.modal-content { background: #2c313d; color: #e8eaf0; }
+.modal-header, .modal-footer { border-color: #3b4150; }
+.modal-body dt { color: #9aa0ad; font-weight: 400; }
+.modal-body dl > div { border-bottom: 1px solid #3b4150; padding: .3rem 0; }
